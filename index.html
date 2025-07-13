@@ -498,21 +498,28 @@
         </p>
         <form class="order-form">
           <div class="form-fieldset">
-            <label class="form-label">Name</label>
+            <label for="user-name" class="form-label">Name</label>
             <div class="input-container">
-              <input class="input-form" type="text" name="username" required />
+              <input
+                id="user-name"
+                class="input-form"
+                type="text"
+                name="user-name"
+                required
+              />
               <svg class="input-icon" width="18" height="24">
                 <use href="./images/icons.svg#name-icon"></use>
               </svg>
             </div>
           </div>
           <div class="form-fieldset">
-            <label class="form-label">Phone</label>
+            <label for="contact-tel" class="form-label">Phone</label>
             <div class="input-container">
               <input
+                id="contact-tel"
                 class="input-form"
                 type="tel"
-                name="contact_tel"
+                name="contact-tel"
                 required
               />
               <svg class="input-icon" width="18" height="24">
@@ -521,9 +528,15 @@
             </div>
           </div>
           <div class="form-fieldset">
-            <label class="form-label"> Email</label>
+            <label for="email" class="form-label"> Email</label>
             <div class="input-container">
-              <input class="input-form" type="email" name="email" />
+              <input
+                id="email"
+                class="input-form"
+                type="email"
+                name="email"
+                required
+              />
               <svg class="input-icon" width="18" height="24">
                 <use href="./images/icons.svg#email-icon"></use>
               </svg>
